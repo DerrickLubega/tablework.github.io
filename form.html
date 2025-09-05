@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <form action="" method="post">
+        <h4>Please enter your membership details</h4>
+        <label>First Name </label>
+        <input type="text" name="firstname"><br/><br/>
+
+        <label>Last Name </label>
+        <input type="text" name="lastname">
+
+        <p>Payment Method:
+            <input type="radio" name="payment" value="cash"> <label>Cash</label>
+            <input type="radio" name="payment" value="cheque"> <label>Cheque</label>
+            <input type="radio" name="payment" value="credit"> <label>Credit</label> 
+        </p>
+
+        <p>
+            Communication Preferences :
+            <input type="checkbox" name="email" value="yes"><label>Email</label>
+            <input type="checkbox" name="newsletter" value="yes"><label>News Letter</label>
+            <input type="checkbox" name="phone" value="yes"><label>Phone</label>
+        </p>
+
+        <p>
+            Membership Type :
+            <select name="membership">
+                <option value="parttime">Part Time</option>
+                <option value="fulltime" selected>Full Time</option>
+
+            </select>
+        </p>
+
+        <p>
+            
+        Attach Documents :
+        <input type="file" name="Document">
+
+        </p>
+        <input type="submit" value="Register">
+        <input type="reset" value="Cancel">
+
+
+
+    </form>
+    
+</body>
+</html>
